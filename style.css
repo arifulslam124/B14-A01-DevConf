@@ -74,3 +74,50 @@ nav{
     margin: 20px auto;
 }
 
+.speakers-parent{
+    margin: 30px auto;
+    text-align: center;
+    padding: 40px;
+}
+h1 {
+    font-weight: bold;
+    font-family: "inter", sans-serif;
+    font-size: 40px ;
+    margin-bottom: 20px;
+}
+.speakers{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+
+}
+
+
+.pic img{
+    width: 500px;
+    margin-bottom: 10px;
+}
+.pic {
+    text-align: left;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .1);
+}
+
+.rank{
+    color: #2563EB;
+    font-size: 12px;
+    font-weight: normal;
+}
+.pic h3{
+    font-family: "inter", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 6px;
+}
+.pic p{
+    font-size: 15px;
+    margin-top: 6PX;
+}
+
