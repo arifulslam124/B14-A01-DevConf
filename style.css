@@ -217,3 +217,36 @@ font-size: 13px;
 .prize-card li::marker{
     color: #2563EB;
 }
+
+footer{
+    background-color: #0D1B2A;
+    color: rgba(255, 255, 255, 0.47);
+    width: 100%;
+}
+
+.footer-parent {
+    padding-top: 30px;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding-bottom: 70px;
+}
+
+
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.footer-list li{
+    list-style: none;
+}
+
+
+.copyright{
+    text-align: center;
+    padding-bottom: 20px;
+}
