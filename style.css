@@ -250,3 +250,28 @@ footer{
     text-align: center;
     padding-bottom: 20px;
 }
+
+.faq{
+    border: 1px solid greenyellow;
+    padding: 12px 25px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px;
+    cursor: pointer;
+}
+.faq:hover{
+    background-color: greenyellow;
+}
+
+.faq-img img {
+    width: 50%;
+    height: auto;
+}
+.faq-img{
+    text-align: center;
+}
+.FAQ-root{
+    display: flex;
+    margin: 25px 0;
+}
